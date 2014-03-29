@@ -1,5 +1,5 @@
 //
-//  TVTViewController.h
+//  TVTTableViewController.h
 //  TableViewTest
 //
 //  Created by chenlihui on 14-3-29.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TVTViewController : UIViewController
+@interface TVTTableViewController : UITableViewController
+
+@property (strong, nonatomic) NSMutableArray* objects;
 
 @end

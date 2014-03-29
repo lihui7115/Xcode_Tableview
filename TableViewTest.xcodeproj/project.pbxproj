@@ -15,13 +15,14 @@
 		BD73CF1518E6F62000E1A795 /* TVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73CF1418E6F62000E1A795 /* TVTAppDelegate.m */; };
 		BD73CF1818E6F62000E1A795 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD73CF1618E6F62000E1A795 /* Main_iPhone.storyboard */; };
 		BD73CF1B18E6F62000E1A795 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD73CF1918E6F62000E1A795 /* Main_iPad.storyboard */; };
-		BD73CF1E18E6F62000E1A795 /* TVTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73CF1D18E6F62000E1A795 /* TVTViewController.m */; };
 		BD73CF2018E6F62000E1A795 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD73CF1F18E6F62000E1A795 /* Images.xcassets */; };
 		BD73CF2718E6F62000E1A795 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD73CF2618E6F62000E1A795 /* XCTest.framework */; };
 		BD73CF2818E6F62000E1A795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD73CF0418E6F62000E1A795 /* Foundation.framework */; };
 		BD73CF2918E6F62000E1A795 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD73CF0818E6F62000E1A795 /* UIKit.framework */; };
 		BD73CF3118E6F62000E1A795 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD73CF2F18E6F62000E1A795 /* InfoPlist.strings */; };
 		BD73CF3318E6F62000E1A795 /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73CF3218E6F62000E1A795 /* TableViewTestTests.m */; };
+		BD73CF3E18E6F6D500E1A795 /* TVTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73CF3D18E6F6D500E1A795 /* TVTTableViewController.m */; };
+		BD73CF4218E6F71500E1A795 /* TVTMyData.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73CF4118E6F71500E1A795 /* TVTMyData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +48,16 @@
 		BD73CF1418E6F62000E1A795 /* TVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVTAppDelegate.m; sourceTree = "<group>"; };
 		BD73CF1718E6F62000E1A795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		BD73CF1A18E6F62000E1A795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		BD73CF1C18E6F62000E1A795 /* TVTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVTViewController.h; sourceTree = "<group>"; };
-		BD73CF1D18E6F62000E1A795 /* TVTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVTViewController.m; sourceTree = "<group>"; };
 		BD73CF1F18E6F62000E1A795 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD73CF2518E6F62000E1A795 /* TableViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD73CF2618E6F62000E1A795 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BD73CF2E18E6F62000E1A795 /* TableViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		BD73CF3018E6F62000E1A795 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD73CF3218E6F62000E1A795 /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
+		BD73CF3C18E6F6D500E1A795 /* TVTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVTTableViewController.h; sourceTree = "<group>"; };
+		BD73CF3D18E6F6D500E1A795 /* TVTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVTTableViewController.m; sourceTree = "<group>"; };
+		BD73CF4018E6F71500E1A795 /* TVTMyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVTMyData.h; sourceTree = "<group>"; };
+		BD73CF4118E6F71500E1A795 /* TVTMyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVTMyData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +121,9 @@
 				BD73CF1418E6F62000E1A795 /* TVTAppDelegate.m */,
 				BD73CF1618E6F62000E1A795 /* Main_iPhone.storyboard */,
 				BD73CF1918E6F62000E1A795 /* Main_iPad.storyboard */,
-				BD73CF1C18E6F62000E1A795 /* TVTViewController.h */,
-				BD73CF1D18E6F62000E1A795 /* TVTViewController.m */,
+				BD73CF3C18E6F6D500E1A795 /* TVTTableViewController.h */,
+				BD73CF3D18E6F6D500E1A795 /* TVTTableViewController.m */,
+				BD73CF3F18E6F6F600E1A795 /* Model */,
 				BD73CF1F18E6F62000E1A795 /* Images.xcassets */,
 				BD73CF0B18E6F62000E1A795 /* Supporting Files */,
 			);
@@ -153,6 +157,15 @@
 				BD73CF2F18E6F62000E1A795 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD73CF3F18E6F6F600E1A795 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD73CF4018E6F71500E1A795 /* TVTMyData.h */,
+				BD73CF4118E6F71500E1A795 /* TVTMyData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD73CF4218E6F71500E1A795 /* TVTMyData.m in Sources */,
 				BD73CF1118E6F62000E1A795 /* main.m in Sources */,
-				BD73CF1E18E6F62000E1A795 /* TVTViewController.m in Sources */,
+				BD73CF3E18E6F6D500E1A795 /* TVTTableViewController.m in Sources */,
 				BD73CF1518E6F62000E1A795 /* TVTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
